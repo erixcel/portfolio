@@ -1,0 +1,341 @@
+<!-- ----------- Start NavBar ----------- -->
+<nav>
+  <div class="container nav-container">
+    <a class="logo">
+      <h3>Erixcel
+        @if (theme === '') {<i class="fa-solid fa-circle-half-stroke" (click)="changeTheme('light-theme')"></i>}
+        @if (theme === 'light-theme') {<i class="fa-solid fa-sun" (click)="changeTheme('dark-theme')"></i>}
+        @if (theme === 'dark-theme') {<i class="fa-solid fa-moon" (click)="changeTheme('')"></i>}
+      </h3>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="menu-button"><i class="fa fa-bars"></i></button>
+  </div>
+</nav>
+<!-- ----------- End NavBar ----------- -->
+
+<!-- ----------- Start MenuBar ----------- -->
+<div class="menu-bar menu-none">
+  <div class="container menubar-container">
+    <a href="#"><i class="fa fa-home"></i></a>
+    <a href="#about"><i class="fa fa-user"></i></a>
+    <a href="#skills"><i class="fa fa-dashboard"></i></a>
+    <a href="#services"><i class="fa fa-box"></i></a>
+    <a href="#portfolio"><i class="fab fa-windows"></i></a>
+    <a href="#contact"><i class="fa fa-message"></i></a>
+  </div>
+</div>
+<!-- ----------- End MenuBar ----------- -->
+
+<!-- ----------- Start Header Section ----------- -->
+<header>
+  <div class="container header-container">
+    <div class="header-left">
+      <h1>It's Me The Beg Joker</h1>
+      <h2>Full Stack <span class="typed-text"></span></h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium excepturi tenetur repellendus aut qui earum, sed soluta unde architecto mollitia. Officia similique fugit possimus, aspernatur nesciunt molestiae rerum voluptas facere!
+      </p>
+      <a href="../assets/img/CV_ErickFloresSantos.pdf" download="" class="btn btn-white">Download CV</a>
+    </div>
+    <div class="header-right">
+      <div class="hero-image">
+        <img src="../assets/img/foto-portfolio.png" alt="">
+      </div>
+      <div class="round">
+        <div class="moon"></div>
+      </div>
+    </div>
+    <div class="social-links">
+      <a href=""><i class="fab fa-facebook"></i></a>
+      <a href=""><i class="fab fa-instagram"></i></a>
+      <a href=""><i class="fab fa-twitter"></i></a>
+      <a href=""><i class="fab fa-linkedin"></i></a>
+      <a href=""><i class="fab fa-github"></i></a>
+    </div>
+    <a href="mailto:" class="hireme">Hire Me</a>
+  </div>
+</header>
+<!-- ----------- Start Header Section ----------- -->
+
+<!-- ----------- Start About Section ----------- -->
+<section id="about">
+  <h2>About Me</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis asperiores elit. Corporis asperiores</p>
+  <div class="container about-container">
+    <div class="about-cards">
+      <div class="card card-primary about-card">
+        <span><i class="fa fa-award"></i></span>
+        <h5>Experience</h5>
+        <small>2+ Years Working</small>
+      </div>
+      <div class="card card-primary about-card">
+        <span><i class="fa fa-book"></i></span>
+        <h5>Projects</h5>
+        <small>90+ Complated</small>
+      </div>
+      <div class="card card-primary about-card">
+        <span><i class="fa fa-users"></i></span>
+        <h5>Clients</h5>
+        <small>20+ Happy Clients</small>
+      </div>
+    </div>
+    <h3>I'm The beg Joker</h3>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse odio, nulla officia accusamus laudantium non facere quibusdam. Aperiam cumque magnam, eius, incidunt eligendi magni fugiat, sequi aspernatur libero facilis repellendus?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae veritatis totam ut sed libero nobis nisi quia minus! Qui libero sequi voluptate voluptatum quaerat accusantium rerum molestias nam. Quod, at?</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corrupti, saepe! Repellendus impedit consectetur harum quia a nostrum reiciendis nisi quos perspiciatis quam commodi repudiandae temporibus minima iusto ipsam, saepe similique.</p>
+    <a href="#contact" class="btn btn-white">Hireme</a>
+  </div>
+</section>
+<!-- ----------- End About Section ----------- -->
+
+<!-- ----------- Start Skills Section ----------- -->
+<section id="skills">
+  <h2>My Skills</h2>
+  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam id tempora omnis sed neque ratione, vel, a inventore corrupti labore explicabo, est assumenda laboriosam repellat non quam possimus nisi necessitatibus?</p>
+  <div class="container skills-container">
+    <div class="skills-left">
+      <div class="card card-primary skill-card">
+        <span><i class="fab fa-html5"></i></span>
+        <h5>Html</h5>
+        <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores architecto aut magnam impedit iusto aliquid, modi voluptate vitae vero saepe asperiores ullam aliquam animi accusantium explicabo inventore delectus excepturi veniam.</small>
+      </div>
+      <div class="card card-primary skill-card">
+        <span><i class="fab fa-css3"></i></span>
+        <h5>Css</h5>
+        <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores architecto aut magnam impedit iusto aliquid, modi voluptate vitae vero saepe asperiores ullam aliquam animi accusantium explicabo inventore delectus excepturi veniam.</small>
+      </div>
+      <div class="card card-primary skill-card">
+        <span><i class="fab fa-js"></i></span>
+        <h5>JavaScript</h5>
+        <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores architecto aut magnam impedit iusto aliquid, modi voluptate vitae vero saepe asperiores ullam aliquam animi accusantium explicabo inventore delectus excepturi veniam.</small>
+      </div>
+    </div>
+    <div class="skills-right">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur vitae inventore velit facere optio perspiciatis! Laborum dolores nesciunt voluptas tempora enim dolorem, at tempore, labore iste praesentium in, dolore quisquam.</p>
+      <div class="progress">
+        <h5><i class="fab fa-react"></i> React JS</h5>
+        <h5>70%</h5>
+        <div class="out-row">
+          <div class="inner-row"></div>
+        </div>
+      </div>
+      <div class="progress">
+        <h5><i class="fab fa-vuejs"></i> Vue JS</h5>
+        <h5>80%</h5>
+        <div class="out-row">
+          <div class="inner-row"></div>
+        </div>
+      </div>
+      <div class="progress">
+        <h5><i class="fab fa-python"></i> Python</h5>
+        <h5>20%</h5>
+        <div class="out-row">
+          <div class="inner-row"></div>
+        </div>
+      </div>
+      <div class="progress">
+        <h5><i class="fab fa-php"></i> php</h5>
+        <h5>40%</h5>
+        <div class="out-row">
+          <div class="inner-row"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ----------- End Skills Section ----------- -->
+
+<!-- ----------- End Services Section ----------- -->
+<section id="services">
+  <h2>Services</h2>
+  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore debitis laboriosam rem quam, molestiae qui excepturi possimus labore. Hic consectetur corporis voluptatum atque repellat odit, aliquam esse distinctio culpa quo?</p>
+  <div class="container services-container">
+    <div class="card services-card card-primary">
+      <span><i class="fa fa-code"></i></span>
+      <h4>Web Development</h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis provident minus itaque quibusdam ullam nobis cumque totam doloribus reiciendis numquam laboriosam eveniet quo rerum nisi quas non, eligendi magni cum.</p>
+    </div>
+    <div class="card services-card card-primary">
+      <span><i class="fab fa-android"></i></span>
+      <h4>Apps Development</h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis provident minus itaque quibusdam ullam nobis cumque totam doloribus reiciendis numquam laboriosam eveniet quo rerum nisi quas non, eligendi magni cum.</p>
+    </div>
+    <div class="card services-card card-primary">
+      <span><i class="fab fa-python"></i></span>
+      <h4>Python Development</h4>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis provident minus itaque quibusdam ullam nobis cumque totam doloribus reiciendis numquam laboriosam eveniet quo rerum nisi quas non, eligendi magni cum.</p>
+    </div>
+  </div>
+</section>
+<!-- ----------- End Services Section ----------- -->
+
+<!-- ----------- Start Portfolio Section ----------- -->
+<section id="portfolio">
+  <h2>Resent Work</h2>
+  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores, quas vel? Accusamus voluptatibus autem quos assumenda. Tempora laborum accusamus dicta ut nam quaerat inventore dolorum iure deserunt! Voluptates, provident recusandae.</p>
+  <div class="container portfolio-container">
+    <div class="portfolio-tabs">
+      <div class="tab btn btn-sm btn-white tab-active" data-name="All">All</div>
+      <div class="tab btn btn-sm btn-white" data-name="movile">Movile</div>
+      <div class="tab btn btn-sm btn-white" data-name="frontend">Frontend</div>
+      <div class="tab btn btn-sm btn-white" data-name="backend">Backend</div>
+      <div class="tab btn btn-sm btn-white" data-name="fullstack">FullStack</div>
+    </div>
+    <div class="portfolio-projects">
+      <div class="project card" data-name="movile">
+        <img src="https://play-lh.googleusercontent.com/gkpN6C_1RLf0hW3fXy8j3n36YWrBlc6ag6b-5ckxfZ-rWZFar0q8YnZVk_3JmpO26w=w3840-h2160-rw" alt="">
+        <h4>Project 1 (Movile)</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore unde neque cum id? Voluptatibus dolorum odio autem porro mollitia inventore impedit, consequatur doloremque perferendis praesentium harum natus unde, quisquam facilis?</p>
+        <div class="project-action-aria">
+          <a class="btn-sm btn" href="">APK</a>
+          <a class="btn-sm btn btn-white" href="">Github</a>
+        </div>
+      </div>
+      <div class="project card" data-name="movile">
+        <img src="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs2/300930910/original/baf51f1d990bea2c720df42b028d0f685ca803ef/develop-responsive-android-apps-or-be-your-android-developer.png" alt="">
+        <h4>Project 2 (Movile)</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore unde neque cum id? Voluptatibus dolorum odio autem porro mollitia inventore impedit, consequatur doloremque perferendis praesentium harum natus unde, quisquam facilis?</p>
+        <div class="project-action-aria">
+          <a class="btn-sm btn" href="">APK</a>
+          <a class="btn-sm btn btn-white" href="">Github</a>
+        </div>
+      </div>
+      <div class="project card" data-name="frontend">
+        <img src="https://www.softkraft.co/uploads/case-studies/peer-2-peer-fintech-lending-software-platform/01-p2p-lending-software-platform.png" alt="">
+        <h4>Project 3 (Frontend)</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore unde neque cum id? Voluptatibus dolorum odio autem porro mollitia inventore impedit, consequatur doloremque perferendis praesentium harum natus unde, quisquam facilis?</p>
+        <div class="project-action-aria">
+          <a class="btn-sm btn" href="">Live</a>
+          <a class="btn-sm btn btn-white" href="">Github</a>
+        </div>
+      </div>
+      <div class="project card" data-name="frontend">
+        <img src="https://www.spaceotechnologies.com/wp-content/uploads/2023/08/Guide-to-Custom-Web-Application-Development.jpg" alt="">
+        <h4>Project 4 (Frontend)</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore unde neque cum id? Voluptatibus dolorum odio autem porro mollitia inventore impedit, consequatur doloremque perferendis praesentium harum natus unde, quisquam facilis?</p>
+        <div class="project-action-aria">
+          <a class="btn-sm btn" href="">Live</a>
+          <a class="btn-sm btn btn-white" href="">Github</a>
+        </div>
+      </div>
+      <div class="project card" data-name="backend">
+        <img src="https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/273671279/original/f12eade2a75deee374fc4f78d9cee3c51aa6dc1d/develop-java-spring-boot-rest-api-and-backend-project.png" alt="">
+        <h4>Project 5 (Bakend)</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore unde neque cum id? Voluptatibus dolorum odio autem porro mollitia inventore impedit, consequatur doloremque perferendis praesentium harum natus unde, quisquam facilis?</p>
+        <div class="project-action-aria">
+          <a class="btn-sm btn" href="">Apis</a>
+          <a class="btn-sm btn btn-white" href="">Github</a>
+        </div>
+      </div>
+      <div class="project card" data-name="fullstack">
+        <img src="https://www.rankbyfocus.com/wp-content/uploads/2020/07/ecommerce-website.jpg" alt="">
+        <h4>Project 6 (FullStack)</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore unde neque cum id? Voluptatibus dolorum odio autem porro mollitia inventore impedit, consequatur doloremque perferendis praesentium harum natus unde, quisquam facilis?</p>
+        <div class="project-action-aria">
+          <a class="btn-sm btn" href="">Live</a>
+          <a class="btn-sm btn btn-white" href="">Github</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ----------- End Portfolio Section ----------- -->
+
+<!-- ----------- Start Testimonial Section ----------- -->
+<section id="testimonial">
+  <h2>Testimonial</h2>
+  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut at expedita quos voluptatum debitis non doloremque obcaecati placeat.</p>
+  <div class="container testimonial-container swiper swiper-testimonial">
+    <div class="slide-wrapper swiper-wrapper">
+      <article class="slide card swiper-slide">
+        <img src="https://img.freepik.com/foto-gratis/retrato-hombre-reir_23-2148859448.jpg?size=338&ext=jpg&ga=GA1.1.386372595.1698192000&semt=ais" alt="">
+        <h5>Emaliy Joy</h5>
+        <small>Actor</small>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae totam, sit vitae tenetur facilis, delectus modi iste perspiciatis quam eveniet officiis exercitationem accusamus nesciunt quae laborum! Fugiat cum nisi ducimus!
+        </p>
+      </article>
+      <article class="slide card swiper-slide">
+        <img src="https://www.webconsultas.com/sites/default/files/styles/wc_adaptive_image__small/public/articulos/perfil-resilencia.jpg" alt="">
+        <h5>Emaliy Joy</h5>
+        <small>Actor</small>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae totam, sit vitae tenetur facilis, delectus modi iste perspiciatis quam eveniet officiis exercitationem accusamus nesciunt quae laborum! Fugiat cum nisi ducimus!
+        </p>
+      </article>
+      <article class="slide card swiper-slide">
+        <img src="https://www.afondochile.cl/site/wp-content/uploads/2018/06/jose-vaisman-e1529942487664.jpg" alt="">
+        <h5>Emaliy Joy</h5>
+        <small>Actor</small>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae totam, sit vitae tenetur facilis, delectus modi iste perspiciatis quam eveniet officiis exercitationem accusamus nesciunt quae laborum! Fugiat cum nisi ducimus!
+        </p>
+      </article>
+      <article class="slide card swiper-slide">
+        <img src="https://thumbs.dreamstime.com/b/hombre-joven-moreno-hermoso-sonriente-60694342.jpg" alt="">
+        <h5>Emaliy Joy</h5>
+        <small>Actor</small>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae totam, sit vitae tenetur facilis, delectus modi iste perspiciatis quam eveniet officiis exercitationem accusamus nesciunt quae laborum! Fugiat cum nisi ducimus!
+        </p>
+      </article>
+      <article class="slide card swiper-slide">
+        <img src="https://www.blogdelfotografo.com/wp-content/uploads/2022/01/retrato-anillo-luz.webp" alt="">
+        <h5>Emaliy Joy</h5>
+        <small>Actor</small>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae totam, sit vitae tenetur facilis, delectus modi iste perspiciatis quam eveniet officiis exercitationem accusamus nesciunt quae laborum! Fugiat cum nisi ducimus!
+        </p>
+      </article>
+      <article class="slide card swiper-slide">
+        <img src="https://i.pinimg.com/236x/85/fc/09/85fc097b34bff079cfe2c2ca2c680870.jpg" alt="">
+        <h5>Emaliy Joy</h5>
+        <small>Actor</small>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae totam, sit vitae tenetur facilis, delectus modi iste perspiciatis quam eveniet officiis exercitationem accusamus nesciunt quae laborum! Fugiat cum nisi ducimus!
+        </p>
+      </article>
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+</section>
+<!-- ----------- End Testimonial Section ----------- -->
+
+<!-- ----------- Start Contact Section ----------- -->
+<section id="contact">
+  <h2>Contact Me</h2>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, dolor.</p>
+  <div class="container container-contact">
+    <div class="contact-left">
+      <a class="btn btn-white" href="mailto:"><i class="fa-solid fa-message"></i></a>
+      <a class="btn btn-white" href=""><i class="fa-brands fa-whatsapp"></i></a>
+      <a class="btn btn-white" href=""><i class="fa-brands fa-skype"></i></a>
+    </div>
+    <div class="contact-right">
+      <form action="#">
+        <input type="text" required placeholder="Your Name">
+        <input type="email" required placeholder="Your Email">
+        <input type="number" required placeholder="Your Number">
+        <textarea name="message" id="" cols="30" rows="4" required placeholder="Your Message"></textarea>
+        <button class="btn btn-white" type="submit">Send</button>
+      </form>
+    </div>
+  </div>
+</section>
+<!-- ----------- End Contact Section ----------- -->
+
+<!-- ----------- Start Footer Section ----------- -->
+<footer>
+  <div class="container footer-container">
+    <!-- &copy; Copyright All Creadit CandyCode (@Candy-Code) Youtube -->
+  </div>
+</footer>
+<!-- ----------- End Footer Section ----------- -->
